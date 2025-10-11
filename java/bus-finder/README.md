@@ -1,12 +1,12 @@
-# 🚌 Bus System Simulation (Java)
+# 🚌 Bus Finder
 
-This project implements a **Bus System simulation** in Java.  
+This project implements a **bus system simulation** in Java.  
 It models buses, bus stops, and iterators for navigating bus routes and passengers.  
 This system requires a **JAR to be built as a library first** before compiling and running the program.
 
----
 
-## 📂 Files
+
+## Files
 
 - **Bus.java** → Defines the Bus object and its properties.  
 - **BusDriver.java** → Main entry point of the program. Runs the bus system simulation.  
@@ -15,9 +15,9 @@ This system requires a **JAR to be built as a library first** before compiling a
 - **BusStopTree.java** → Tree structure to represent bus stops and their organization.  
 - **BusStopTreeTester.java** → Test suite for verifying the correctness of the BusStopTree and iterators.  
 
----
 
-## ⚙️ Step 1 — Build the Library JAR
+
+## Step 1 — Build the Library JAR
 
 Before compiling the main program, you must create a JAR library.  
 This JAR will be referenced on the classpath when compiling and running.
@@ -29,9 +29,9 @@ javac *.java
 jar cf BusSystemLib.jar *.class
 ```
 
----
 
-## ⚙️ Step 2 — Compile with the Library
+
+## Step 2 — Compile with the Library
 
 After `BusSystemLib.jar` is built, compile (or recompile) your sources while including the library on the classpath:
 

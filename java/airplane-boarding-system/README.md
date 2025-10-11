@@ -1,11 +1,11 @@
-# Airline Boarding System (Java)
+# ✈️ Airline Boarding System 
 
-This project simulates an airline boarding system that uses a **priority queue** to manage passengers and boarding groups.  
+This project simulates an **airline boarding system** that uses a priority queue to manage passengers and boarding groups.  
 It models passengers with different attributes, places them into groups, and ensures boarding follows a priority-based order.
 
----
 
-## 📂 Files Included
+
+## Files Included
 
 - **Passenger.java**  
   Defines the `Passenger` class with attributes like name, boarding group, and possibly priority (e.g., first class, economy, special needs).  
@@ -27,13 +27,3 @@ It models passengers with different attributes, places them into groups, and ens
 - **BoardingSystemTester.java**  
   A test class that verifies the correctness of the boarding system implementation.  
   Includes unit tests for queue operations, passenger ordering, and system rules.  
-
----
-
-## ⚙️ Compilation
-
-To compile all classes:
-
-```bash
-javac *.java
-```

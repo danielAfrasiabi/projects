@@ -1,4 +1,4 @@
-# Caesar Cipher Decoder
+# 🗝️ Caesar Cipher Decoder
 
 ## Overview
 A simple decoder for Caesar cipher texts.  
@@ -7,7 +7,7 @@ A simple decoder for Caesar cipher texts.
 - Applies a right-shift Caesar cipher to decode.  
 - Outputs the decoded plaintext.
 
----
+
 
 ## How It Works
 1. Load ciphertext from `cipher.txt`.
@@ -17,7 +17,7 @@ A simple decoder for Caesar cipher texts.
    - Take modulo 26 (use 1 if result is 0).
 4. Decode each lowercase letter by circular right shift.
 
----
+
 
 ## Example
 ```bash

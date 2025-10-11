@@ -1,12 +1,12 @@
-# 📝 Assignment Grading System (Java)
+# 📝 Grade Genie
 
 This project implements an **assignment grading system** in Java.  
 It models assignments and groups, applies scaling or dropping rules, and calculates grades.  
 It includes driver and tester classes for verifying grading logic.
 
----
 
-## 📂 Files
+
+## Files
 
 - **AssignmentGroup.java** → Represents a collection of assignments and their weights.  
 - **DropAssignmentGroup.java** → Extends `AssignmentGroup` with functionality to drop the lowest score(s).  
@@ -15,13 +15,3 @@ It includes driver and tester classes for verifying grading logic.
 - **CS300Grader.java** → Driver program for running the grading system.  
 - **AssignmentGroupTester.java** → Tester for verifying `AssignmentGroup` functionality.  
 - **SimpleAssignmentTester.java** → Tester for verifying `SimpleAssignment` functionality.  
-
----
-
-## ⚙️ Compilation
-
-Compile all Java files:
-
-```bash
-javac *.java
-```

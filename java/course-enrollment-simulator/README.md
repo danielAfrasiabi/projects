@@ -1,11 +1,11 @@
-# 🎓 Exceptional Course Enrollment (Java)
+# 📚 Course Enrollment Simulator
 
-This project simulates an **Exceptional Course Enrollment system** in Java.  
+This project simulates a **course enrollment system** in Java.  
 It models students, records, and enrollment rules, with drivers for execution and testers for validation.
 
----
 
-## 📂 Files
+
+## Files
 
 - **StudentRecord.java** → Defines a student’s record (name, ID, enrollment status, etc.).  
 - **ExceptionalCourseEnrollment.java** → Core class containing the logic for course enrollment.  
@@ -13,12 +13,4 @@ It models students, records, and enrollment rules, with drivers for execution an
 - **ExceptionalCourseEnrollmentTester.java** → Automated tester for validating the enrollment logic.  
 - **saved_roster.txt** → Sample text file with stored student roster information.  
 
----
 
-## ⚙️ Compilation
-
-Compile all Java files:
-
-```bash
-javac *.java
-```

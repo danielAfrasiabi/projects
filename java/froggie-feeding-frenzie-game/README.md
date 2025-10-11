@@ -1,11 +1,11 @@
-# 🐸 Frog Game with Bugs (Java)
+# 🐸 Froggie Feeding Frenzie Game
 
-This project implements a **Frog Game simulation** in Java, featuring multiple bug types and interactions with a frog character.  
-Like the Bus and SpaceStation projects, it requires a **JAR to be built as a library first** before compiling and running.
+This project implements a **frog game simulation** in Java, featuring multiple bug types and interactions with a frog character.  
+Like the Bus Finder and Among Us Game projects, it requires a **JAR to be built as a library first** before compiling and running.
 
----
 
-## 📂 Files
+
+## Files
 
 - **Frog.java** → Defines the Frog character and its movement/interaction logic.  
 - **FrogGame.java** → Main driver of the game. Entry point (`main` method).  
@@ -18,9 +18,9 @@ Like the Bus and SpaceStation projects, it requires a **JAR to be built as a lib
 - **Hitbox.java** → Class handling collisions and interaction areas.  
 - **Tongue.java** → Represents the frog’s tongue attack.  
 
----
 
-## ⚙️ Step 1 — Build the Library JAR
+
+## Step 1 — Build the Library JAR
 
 Before compiling or running, build the JAR library from all `.class` files:
 
@@ -28,9 +28,9 @@ Before compiling or running, build the JAR library from all `.class` files:
 javac *.java
 jar cf FrogGameLib.jar *.class
 ```
----
 
-## ⚙️ Step 2 — Compile with the Library
+
+## Step 2 — Compile with the Library
 
 After `FrogGameLib.jar` is built, compile your sources **against** the library:
 
