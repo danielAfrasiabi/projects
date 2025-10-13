@@ -1,4 +1,4 @@
-# 📡 Signal Handling Programs in C
+# 📡 Signal Handling
 
 This project consists of three C programs that demonstrate how to handle and send signals in a Unix/Linux environment. The programs use the `sigaction` system call to override default signal behaviors and handle them gracefully.
 
